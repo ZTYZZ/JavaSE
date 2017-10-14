@@ -7,12 +7,6 @@ package cn.ztyzz_01;
  *		java
  *		输出
  *		4
- *
- *注意:在这里我卡了好久，这么短的程序我竟然写的很罪
- *1.注意用的是search的length()，我刚开始用的竟然是s的
- *2.index的更新问题，我刚开始竟然写成了 index += search.length()
- *这虽然对，但是按照这个程序是不对的，因为index值每次只加了length()，
- *这样一定是有重复的。
  */
 import java.util.Scanner;
 
