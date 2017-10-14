@@ -17,8 +17,6 @@ import java.util.Scanner;
  *          						该方法是 从字符串的begin开始，到end-1结束，复制到bys数组的bysBegin后面去。
  *          
  *          += 和 + 是 Java中仅有的两个重载过的操作符。Java并不允许程序重载任何操作符。
- *          
- *          **1.数组类型，没有重写toString()方法,所以直接打印不会打印元素。
  */
 public class ReverseString {
 	public static void main(String[] args) {
