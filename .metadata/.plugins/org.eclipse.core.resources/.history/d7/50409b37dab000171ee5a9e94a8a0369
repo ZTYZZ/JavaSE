@@ -1,0 +1,37 @@
+package cn.ztyzz_01;
+/**
+ * 需求：统计给出的字符串中包含的小串的个数、
+ *
+ *例如 ：输入
+ *		woaijavaznemuangjavaejdajavalljejava
+ *		java
+ *		输出
+ *		4
+ */
+import java.util.Scanner;
+
+public class StringCount {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		String s = in.nextLine();
+		String search = in.nextLine();
+		int index = 0;
+		int count = 0;
+		
+		if(s.indexOf(search) != -1) {
+			count ++;
+			
+			while(s.indexOf(search,index+s.length())!=-1) {
+				count++;
+				System.out.println(search);
+			}
+		}
+		
+		System.out.println(count);
+		
+		
+
+	}
+
+}
